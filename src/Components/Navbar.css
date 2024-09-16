@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 16px;
+}
+.nav-connect{
+    padding: 8px 20px;
+    border-radius:30px ;
+    background:linear-gradient(260deg,#DA7c25 0.36%,#B923E1 102%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.1);
+}
+.navbar img{
+    width: 80px;
+}
+.navbar .navmenu{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar ul li{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.navbar ul li img{
+    display: flex;
+    margin: auto;
+    width: 45px;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+    width: 10px;
+}
+.navbar i{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:760px){
+    .navbar{
+        margin: 18px 45px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 28px;
+        left: 180px;
+        width: 28px;
+    }
+    .navmenu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 28px;
+        background: black;
+        width: 250px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -330px;
+    }
+    .navmenu li{
+        font-size: 28px;
+        padding-left: 40px;
+        flex-direction: row;
+        gap: 18px;
+    }
+}
