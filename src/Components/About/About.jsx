@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Profile from "../assets/profile.jpg"
 function About() {
   return (
     <div id='about' className='about'>
@@ -8,7 +9,7 @@ function About() {
             <img src="./src/assets/theme_pattern.svg" alt="" />
         </div>
         <div className="about-sections">
-            <div className="about-left"><img src="./src/assets/profile.jpg" alt="" /></div>
+            <div className="about-left"><img src={Profile} alt="" /></div>
             <div className="about-right">
                 <div className="about-para">
                     <h1>Web developer</h1>
