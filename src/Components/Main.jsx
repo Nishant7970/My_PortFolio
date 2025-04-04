@@ -1,5 +1,6 @@
 import React from 'react'
 import './Main.css'
+import Resume from "../Resume/nishant_cv_.pdf"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Main() {
   return (
@@ -11,9 +12,11 @@ function Main() {
             <div className="main-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>
                 Connect With Me
             </AnchorLink></div>
+            <a className='cv' href={Resume} download={Resume}>
             <div className="main-cv">
                 My CV
             </div>
+            </a>
         </div>
     </div>
   )

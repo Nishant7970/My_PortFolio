@@ -27,6 +27,9 @@
 }
 
 .education-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 70%;
 }
 .education-container img {
@@ -36,9 +39,9 @@
 .image1{
     display: flex;
     gap: 20px;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    box-shadow: 5px 5px 15px white;
+    box-shadow: 3px 3px 7px white;
 }
 .details1{
     display: flex;
@@ -48,7 +51,6 @@
 .image2{
     display: flex;
     gap: 20px;
-    justify-content:space-around;
     align-items: center;
     box-shadow: 5px 5px 15px white;
 }
@@ -56,4 +58,24 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+@media(max-width:1000px){
+    .image1{
+        flex-direction: column;
+    }
+    .image1 h1{
+        font-size: 18px;
+    }
+    .image2{
+        flex-direction: column;
+    }
+    .image2 h1{
+        font-size: 18px;
+    }
+    .image2{
+        flex-direction: column;
+    }
+    .image2 h1{
+        font-size: 18px;
+    }
 }

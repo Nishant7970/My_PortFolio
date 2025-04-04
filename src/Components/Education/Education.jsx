@@ -13,7 +13,7 @@ function Education() {
         <div className="image1">
           <img src="./src/assets/Lpu.jpeg" alt="" />
           <div className="details1">
-            <h1>Bachelor of Computer Science</h1>
+            <h1>Bachelor of Technology|Computer Science</h1>
             <p>Lovely Professional University</p>
             <p>2022-2026 | Pursuing</p>
           </div>
@@ -21,8 +21,16 @@ function Education() {
         <div className="image2">
           <img src="./src/assets/Global_school.webp" alt="" />
           <div className="details2">
-            <h1>Higher Secondary Certificate (HSC) | CBSE</h1>
+            <h1>Intermediate|CBSE</h1>
             <p>Global Internation School</p>
+            <p>2020-2022</p>
+          </div>
+        </div>
+        <div className="image2">
+          <img src="./src/assets/image3.avif" alt="" />
+          <div className="details2">
+            <h1>Matriculate|CBSE</h1>
+            <p>SRT Public School</p>
             <p>2020-2022</p>
           </div>
         </div>
