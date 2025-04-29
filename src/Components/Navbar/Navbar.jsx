@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './Navbar.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import img1 from "../assets/logo.png";
+import img1 from "../assets/Logo.png";
 import img2 from "../assets/nav_underline.svg";
 
 function Navbar() {
