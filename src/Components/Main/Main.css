@@ -4,11 +4,12 @@
     flex-direction: column;
     gap: 30px;
 }
-.main img{
-    width: 300px;
+.main img {
+    width: 250px;
     margin-top: 50px;
     border-radius: 50%;
 }
+
 .main h1{
     text-align: center;
     width: 60%;

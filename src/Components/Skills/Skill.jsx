@@ -1,11 +1,12 @@
 import React from 'react'
 import './Skill.css'
+import img1 from "../assets/theme_pattern.svg"
 function Skill() {
   return (
     <div id='skill' className='Skills'>
         <div className="skills-title">
             <h1>Skills</h1>
-            <img src="./src/assets/theme_pattern.svg" alt="" />
+            <img src={img1} alt="" />
         </div>
         
         <div className="html">

@@ -20,6 +20,7 @@
     pad: 0px 25px;
     font-size: 50px;
     font-weight: 500;
+    
 }
 .about-title img {
     position: absolute;
@@ -48,6 +49,14 @@
     gap: 17px;
     font-size: 19px;
     font-weight: 300;
+}
+.about-para h1{
+    font-size: 50px;
+    font-weight: 600;
+    background:linear-gradient(264deg,orange -5%,purple 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-skills{
     display: flex;
